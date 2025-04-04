@@ -22,7 +22,7 @@ const generateDummyBlogs = () => {
       content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, nisl eget ultricies tincidunt, nisl nisl aliquam nisl, eget ultricies nisl nisl eget nisl. Sed tincidunt, nisl eget ultricies tincidunt, nisl nisl aliquam nisl, eget ultricies nisl nisl eget nisl.',
       author: {
         _id: '1',
-        name: 'Demo User'
+        name: 'AKSHARA'
       },
       likes: ['2'],
       comments: [
@@ -30,7 +30,7 @@ const generateDummyBlogs = () => {
           _id: '1',
           blogId: '1',
           userId: '2',
-          userName: 'Another User',
+          userName: 'ANGEL',
           content: 'Great post! Very informative.',
           createdAt: new Date(Date.now() - 86400000).toISOString()
         }
@@ -41,18 +41,33 @@ const generateDummyBlogs = () => {
     },
     {
       _id: '2',
-      title: 'The Art of Typography in Web Design',
-      subtitle: 'How fonts influence user experience',
-      content: 'Fonts play a crucial role in how users perceive and interact with your content. This post explores the importance of typography in modern web design...',
+      title: '"Lost in the Rhythm: A Music Lover’s Escape"',
+      subtitle: 'How Music Influences Mood and Emotions',
+      content: ' A music lover hears emotions in every note, finding meaning where words fall short. Every song becomes a memory, a feeling, or an escape from reality. Music isn’t just sound—it’s a heartbeat of the soul..',
       author: {
         _id: '2',
-        name: 'Another User'
+        name: 'ANGEL'
       },
       likes: ['1'],
       comments: [],
       createdAt: new Date(Date.now() - 259200000).toISOString(),
       updatedAt: new Date(Date.now() - 259200000).toISOString(),
-      imageUrl: 'https://images.unsplash.com/photo-1561291386-5be50364cfb5?q=80&w=1000'
+      imageUrl: 'https://www.mghclaycenter.org/assets/canstockphoto14204219-635x325.jpg'
+    },
+    {
+      _id: '3',
+      title: 'Photoholic',
+      subtitle: 'Vintage',
+      content: 'A photoholic sees the world through a lens, capturing moments that words can’t express. Every click preserves emotions, beauty, and memories that would otherwise fade. Photography isn’t just a hobby—it’s a way of life.',
+      author: {
+        _id: '2',
+        name: 'ANGEL'
+      },
+      likes: ['1'],
+      comments: [],
+      createdAt: new Date(Date.now() - 259200000).toISOString(),
+      updatedAt: new Date(Date.now() - 259200000).toISOString(),
+      imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc9APxkj0xClmrU3PpMZglHQkx446nQPG6lA&s'
     }
   ];
 };
